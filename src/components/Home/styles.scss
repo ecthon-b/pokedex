@@ -6,7 +6,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 820px;
+    height: 806px;
 }
 
 .hero {
@@ -54,11 +54,14 @@
         border-left: 1px solid #181717;
 
         svg {
-            color: #817E7E;
+            color: #373737;
+        }
 
-            &:hover {
+        &:hover {
+            background-color: #1b1919;
+            svg { 
                 color: #fff;
-            }
+            }  
         }
     }
 
@@ -69,12 +72,15 @@
         align-items: center;
         justify-content: center;
         justify-items: center;
-        font-style: italic;
         font-size: 1rem;
         font-weight: bold;
         background-color: #FA3F38;
         color: #fff;
         cursor: pointer;
+
+        &:hover {
+            font-style: italic;
+        }
 
         p {
             margin-top: -5px;
