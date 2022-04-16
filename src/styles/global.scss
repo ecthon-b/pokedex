@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: f0f1f2;
+    font: 1rem, 'Poppins', sans-serif;
+    ::-webkit-scrollbar {
+        width: 0px;
+    }        
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Red Hat Display', sans-serif;
+}

@@ -1,0 +1,41 @@
+import mewtwo from '../../public/mewtwo.png';
+import './styles.scss'
+
+import { SiDiscord } from 'react-icons/si';
+import { FaLinkedinIn, FaArrowRight } from 'react-icons/fa'
+import { FiInstagram } from 'react-icons/fi'
+
+
+export function Home() {
+    return (
+        <>
+            <div className='container'>
+                <div className='hero'>
+                    <div className='title'>
+                        <h3>React</h3>
+                        <h1>POKÉDEX</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptates enim, vel perferendis atque est doloremque!
+                        </p>
+                    </div>
+                    <img src={mewtwo} alt="Pokémon Mewtwo" />
+                </div>
+            </div>
+            <div className='menu'>
+                <a className="linkedin">
+                    <p><FaLinkedinIn size={'32px'} /></p>
+                </a>
+                <a className="instagram">
+                    <p><FiInstagram size={'32px'} /></p>
+                </a>
+                <a className="discord">
+                    <p><SiDiscord size={'32px'} /></p>
+                </a>
+                <a className="explorar">
+                    <p>EXPLORAR </p><span><FaArrowRight size={'24px'}/></span>
+                </a>
+            </div>
+        </>
+    )
+}
