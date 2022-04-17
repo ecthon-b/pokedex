@@ -4,19 +4,20 @@ import './styles.scss'
 import { SiDiscord } from 'react-icons/si';
 import { FaLinkedinIn, FaArrowRight } from 'react-icons/fa'
 import { FiInstagram } from 'react-icons/fi'
+import { Header } from '../Header';
 
 
 export function Home() {
     return (
         <>
+            <Header />
             <div className='container'>
                 <div className='hero'>
                     <div className='title'>
                         <h3>React</h3>
                         <h1>POKÉDEX</h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Voluptates enim, vel perferendis atque est doloremque!
+                            Explorando os poderes da PokéAPI com React.js e Typescript.
                         </p>
                     </div>
                     <img src={mewtwo} alt="Pokémon Mewtwo" />
